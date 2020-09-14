@@ -9,22 +9,35 @@ https://start.spring.io/#!type=gradle-project&language=java&platformVersion=2.3.
 # Architecture
 
 -Technologies
+
 spring boot -> 2.3.3
+
 language -> Java 8
+
 project -> Gradle Project
+
 Packaging -> jar
+
 Spring Web -> Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+
 spring data-jpa -> Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+
 H2 Database  -> Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application.
+
 Spring Security -> Highly customizable authentication and access-control framework for Spring applications.
+
 MockMvc -> API test integration.
 
 -Packages
 
 dto -> Transactional objects Rest and database.
+
 repository -> interface with database.
+
 rest -> Implementation of the REST api.
+
 security -> implementation of Spring security basic autentication.
+
 service -> package relating to services.
 
 # Execution
