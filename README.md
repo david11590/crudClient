@@ -45,7 +45,6 @@ service -> package relating to services.
 -CUSTOMER REGISTRATION API
 Import comand curl in the Postman
 
-----------------------------------------------------------------------
 curl --location --request POST 'http://localhost:8080/client/add' \
 --header 'Authorization: Basic dXNlcjpwYXNzd29yZA==' \
 --header 'Content-Type: application/json' \
@@ -55,17 +54,14 @@ curl --location --request POST 'http://localhost:8080/client/add' \
     "cpf": "001806653213",
     "endereco": "Rua piratininga"
 }'
-----------------------------------------------------------------------
 
 -CLIENT QUERY API
 Import comand curl in the Postman
 
-------------------------------------------------------------------
 curl --location --request GET 'http://localhost:8080/client/get' \
 --header 'Authorization: Basic YWRtaW46cGFzc3dvcmQ=' \
 --header 'Cookie: JSESSIONID=FD71EB1F604C951D01E5E9CC67C1CBBF' \
 --data-raw ''
-------------------------------------------------------------------
 
 # Docker
 
@@ -75,10 +71,6 @@ dockerfile at the root of the project.
 
 -Commands in Windows O.S
 
--------------------------------------------------------------------
 docker build --build-arg JAR_FILE=build/libs/*.jar -t myorg/myapp .
--------------------------------------------------------------------
 
------------------------------
 docker build -t myorg/myapp .
------------------------------
