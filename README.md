@@ -61,6 +61,7 @@ reference -> https://spring.io/guides/topicals/spring-boot-docker/
 dockerfile at the root of the project.
 
 -Commands in Windows O.S
+
 -------------------------------------------------------------------
 docker build --build-arg JAR_FILE=build/libs/*.jar -t myorg/myapp .
 -------------------------------------------------------------------
