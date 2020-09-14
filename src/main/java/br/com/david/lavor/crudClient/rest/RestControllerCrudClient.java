@@ -25,7 +25,7 @@ public class RestControllerCrudClient
     public ResponseEntity<?> postInsertClient(@RequestBody Client requestClient)
     {
         serviceCrudClient.clientAdd(requestClient);
-        return null;
+        return new ResponseEntity<>(HttpStatus.ACCEPTED);
     }
 
     @PostMapping
